@@ -16,13 +16,12 @@ Su sistemi Fedora, si raccomanda l'utilizzo di Podman per l'esecuzione in contai
    xhost +local:$(whoami)
 
 3. **Esecuzione del container:**
-   podman run -it --rm \
-       --net=host \
-       --device /dev/dri:/dev/dri \
-       -e DISPLAY=$DISPLAY \
-       -v /tmp/.X11-unix:/tmp/.X11-unix:ro \
-       --security-opt label=disable \
-       flappy-bird-container
+   podman run -it --rm \   
+    --net=host \
+    --device /dev/dri:/dev/dri \
+    -e DISPLAY=$DISPLAY \
+    -v /tmp/.X11-unix:/tmp/.X11-unix:ro \
+    --security-opt label=disa
 
 ### Windows
 Requisiti: Python 3.x installato e configurato nel PATH di sistema.
