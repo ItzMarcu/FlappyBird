@@ -50,7 +50,7 @@ Requisiti: Python 3.x e gestore pacchetti pip.
 
 ## Struttura del Repository
 * `game.py`: Script principale contenente la logica di gioco e la gestione degli asset.
-* `assets/`: Directory dedicata alle risorse multimediali (immagini e file audio).
+* `immagini/`: Directory dedicata alle risorse multimediali.
 * `Containerfile`: Configurazione per l'automazione della build in ambienti Linux.
 * `requirements.txt`: Elenco delle dipendenze software necessarie per l'ambiente Python.
 
