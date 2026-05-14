@@ -1,7 +1,4 @@
 # Flappy Bird - Python Edition
-
-Implementazione del software Flappy Bird sviluppata in linguaggio Python mediante l'utilizzo della libreria Pygame. Il progetto è configurato per l'esecuzione in ambienti containerizzati tramite Podman o Docker, garantendo la portabilità e l'isolamento delle dipendenze su diverse distribuzioni, con particolare ottimizzazione per Fedora.
-
 ## Istruzioni per l'avvio
 
 Selezionare la procedura relativa al proprio sistema operativo per l'esecuzione del software.
